@@ -40,3 +40,5 @@ Please respect the rules and do not share input files publicly. Doing so would v
 
 ## 🚀 Best of Luck and Happy Coding!
 I hope this repository helps you tackle the challenges. Enjoy solving the problems!
+
+**PS: This readme is sponsered by ChatGPT**
