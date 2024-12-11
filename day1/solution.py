@@ -20,9 +20,18 @@ def get_distance(first_list, second_list):
     return distance
 
 
-def solution():
+def solution1():
     source = get_source(1)
     first_list, second_list = get_lists(source)
     first_list.sort()
     second_list.sort()
     return get_distance(first_list, second_list)
+
+
+def solution2():
+    source = get_source(1)
+    first_list, second_list = get_lists(source)
+    result = 0
+    for item in first_list:
+        result += int(item) * second_list.count(item)
+    return result
