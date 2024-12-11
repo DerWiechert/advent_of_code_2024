@@ -9,6 +9,11 @@ def is_sorted(item_list, reverse=False):
 
 def check_sorted(item_list, remove):
     def condition(item_list):
+        unique_list = []
+        for val in item_list:
+            if val in unique_list:
+                return False
+            unique_list.append(val)
         return is_sorted(item_list) or is_sorted(item_list, reverse=True)
 
     if condition(item_list):
