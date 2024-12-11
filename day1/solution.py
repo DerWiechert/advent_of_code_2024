@@ -1,4 +1,4 @@
-from library.get_src import get_source
+from library.src import get_source
 
 
 def get_lists(source):

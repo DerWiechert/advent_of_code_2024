@@ -1,4 +1,4 @@
-from library.get_src import get_source
+from library.src import get_source, wip
 
 
 def is_sorted(item_list, reverse=False):
@@ -60,8 +60,8 @@ def solution1():
     return result
 
 
+@wip
 def solution2():
-    # WIP: Doesnt work
     source = get_source(2)
     increasing_decreasing_lists = get_increasing_decreasing_lists(source, remove=True)
     result = 0
